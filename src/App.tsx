@@ -1,5 +1,6 @@
 import Header from "./components/Header"
 import MainComponent from "./components/MainComponent"
+import Footer from "./components/Footer"
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
     <Header/>
     <MainComponent/>
+    <Footer/>
     </>
   )
 }

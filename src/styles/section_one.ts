@@ -3,8 +3,8 @@ export const SectionOneComponent = styled.div``;
 export const SoForm = styled.form`
   width: 100%;
   display: grid;
-  @media (min-width: 720px) {
-    grid-template-columns: 65% 30%;
+  @media (min-width: 600px) {
+    grid-template-columns: 66% 32%;
     justify-content: space-between;
   }
 `;
@@ -29,7 +29,7 @@ export const SoFormInputError = styled.span`
   margin-top: 0.5rem;
   padding: 0 2rem;
   text-align: center;
-  @media (min-width: 720px) {
+  @media (min-width: 600px) {
     text-align: left;
   }
 `;
@@ -43,10 +43,12 @@ export const SoFormInputSubmit = styled.input`
   font-size: 1rem;
   cursor: pointer;
   transition: 0.3s;
+  box-shadow: 0px 4px 10px 2px #4f7df35e;
   &:hover {
     background-color: var(--blue-hover);
+    box-shadow: 0px 4px 10px 2px #7195f55e;
   }
-  @media (min-width: 720px) {
+  @media (min-width: 600px) {
     margin-top: 0rem;
     height: 3.313rem;
   }

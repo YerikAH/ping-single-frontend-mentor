@@ -1,7 +1,7 @@
 import styled from "styled-components";
 export const HeaderComponent = styled.div`
   width: 100%;
-  max-width: 600px;
+  max-width: 40.625rem;
 `;
 export const HeaderNavegator = styled.div`
   width: 100%;
@@ -11,7 +11,7 @@ export const HeaderNavegator = styled.div`
 `;
 export const NavegatorLogo = styled.img`
   width: 4rem;
-  @media (min-width: 720px) {
+  @media (min-width: 600px) {
     width: auto;
   }
 `;
@@ -25,7 +25,7 @@ export const NavegatorTitle = styled.h2`
   color: var(--gray);
   text-align: center;
   letter-spacing: -0.063rem;
-  @media (min-width: 720px) {
+  @media (min-width: 600px) {
     font-size: 3rem;
   }
 `;
@@ -34,17 +34,18 @@ export const NavegatorTitleTwo = styled.span`
   color: var(--very-dark-blue);
   font-size: 1.5rem;
   letter-spacing: -0.063rem;
-  @media (min-width: 720px) {
+  @media (min-width: 600px) {
     font-size: 3rem;
   }
 `;
 export const NavegatorText = styled.p`
-  font-size: 1rem;
-  margin-top: 1rem;
+  font-size: 0.8rem;
+  margin-top: 1.5rem;
   color: var(--very-dark-blue);
   text-align: center;
   font-weight: 300;
-  @media (min-width: 720px) {
+  @media (min-width: 600px) {
     font-size: 1.25rem;
+    margin-top: 1rem;
   }
 `;
